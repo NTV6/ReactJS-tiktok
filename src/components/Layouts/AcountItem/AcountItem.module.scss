@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 7px 14px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #f7f7f7;
+    }
+
+    &:last-child {
+        border-radius: 0 0 8px 8px;
+    }
+}
+
+.wrapper img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+    object-fit: cover;
+}
+
+.info {
+    flex: 1;
+}
+
+.body-name {
+    display: flex;
+}
+
+.icon-check {
+    color: aqua;
+    padding-left: 8px;
+}
+
+.name {
+    font-size: 1.4rem;
+    opacity: 0.5;
+}

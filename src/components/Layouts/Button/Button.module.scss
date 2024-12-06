@@ -1,0 +1,82 @@
+.wrapper {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+
+    +.wrapper {
+        margin-left: 8px;
+    }
+}
+
+.btnGetApp {
+    border-radius: 999px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+
+    &:hover {
+        border-color: #b2b2b2;
+        background-color: #f1f1f1;
+    }
+}
+
+.btnLoginHeader {
+    color: white;
+    background-color: crimson;
+    border-color: crimson;
+
+    &:hover {
+        border-color: crimson;
+        background-color: #be1131;
+    }
+}
+
+.btnFollow {
+    color: crimson;
+    border: 1px solid currentColor;
+
+    &:hover {
+        border: 1px solid currentColor;
+        background-color: #ffe8ec;
+    }
+}
+
+.btnUpload {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.small {
+    min-width: 88px;
+    padding: 4px 16px;
+}
+
+.large {
+    min-height: 48px;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    user-select: none;
+}
+
+.icon+.title,
+.title+.icon {
+    margin-left: 8px;
+}
+
+.icon {
+    width: 24px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.title {
+    flex: 1;
+    font-size: 1.4rem;
+}

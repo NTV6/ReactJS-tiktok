@@ -1,0 +1,45 @@
+.wrapper {
+    height: 60px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 12%);
+}
+
+.container {
+    margin: 0 auto;
+    width: var(--width-app);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more-btn {
+    padding: 0px 8px;
+    margin-left: 18px;
+    height: 42px;
+    font-size: 2.1rem;
+    background-color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.action-btn {
+    background-color: transparent;
+    margin-left: 20px;
+    font-size: 2rem;
+    margin-bottom: -4px;
+    cursor: pointer;
+}
+
+.action-btn img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}

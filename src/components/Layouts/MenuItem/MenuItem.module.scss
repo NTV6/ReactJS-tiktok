@@ -1,0 +1,29 @@
+.menu-items {
+    margin-top: -1px;
+    width: 200px;
+    overflow: hidden;
+
+    .menu-item {
+        display: flex;
+        margin-left: 0;
+        text-align: left;
+        width: 100%;
+        line-height: 24px;
+
+        &:hover {
+            background-color: #ededed;
+        }
+
+        &:first-child {
+            border-radius: 8px 8px 0 0;
+        }
+
+        &:last-child {
+            border-radius: 0 0 8px 8px;
+        }
+    }
+}
+
+.separate {
+    border-top: 1px solid #ccc;
+}

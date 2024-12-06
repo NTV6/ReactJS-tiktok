@@ -1,0 +1,10 @@
+.container{
+    margin: 0 auto;
+    width: var(--width-app);
+    display: flex;
+}
+
+.content{
+    flex: 1;
+    background-color: rgb(255, 0, 0);
+}
